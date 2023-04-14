@@ -25,3 +25,15 @@ Es importante resaltar que para realizar el proceso se debe ir al service **S3**
 * Ingresamos en el apartado **Bloquear acceso público(configuración del bucket)**
 * desactivamos la opcion **Bloquear todo el acceso publico**
 
+## Ejecución local
+
+* Se prueba el aplicativo en la aplicación intellij IDEA 
+* Se verficarse su correcto funcionamiento y compilación
+* Se empaqueta la aplicación con maven package desde intellij IDEA
+* Desde el terminal CMD se ejecuta el comando
+
+   ```
+  java -jar target/{nombreaplicativo}.jar
+  ```
+  
+
