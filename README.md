@@ -1,6 +1,12 @@
 
 ## Despliegue de apps Sprint Boot en Aws
 
+Crear archivo `system.properties` en el proyecto con el contenido:
+
+```
+java.runtime.version=17
+```
+
 1. Crear cuenta en AWS
 2. Buscar en el buscador el service Elastic Beanstalk
 3. dar click en el boton **Create Application**
